@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Travail pratique</title>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <form action="page.html">
+        <ul>
+            <h1>Veuillez remplir le formulaire</h1>
+            <li id="titre">
+                <p id="nom"></p>
+                <p id="prenom"></p>
+                <p id="password"></p>
+            </li>
+            <li>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" value="nom" required>
+            </li>
+            <li>
+                <label for="prenom">Prenom</label>
+                <input type="text" name="prenom" id="prenom" value="prenom" required>
+            </li>
+            <li>
+                <label for="password">Définissez votre mot de passe</label>
+                <p id="message_alert"></p>
+                <input type="password" name="password" id="password" value="password" required>
+            </li>
+            </li>
+            <li>
+                <label for="password">Confirmer mot de passe</label>
+                <input type="password" name="password" id="confirm_password" value="password" required>
+            </li>
+            <li>
+                <button type="submit" href="page.html" id="btn">Valider</button>
+            </li>
+        </ul>
+    </form>
+</body>
+
+</html>
